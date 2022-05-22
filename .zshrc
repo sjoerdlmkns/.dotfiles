@@ -1,0 +1,9 @@
+export PATH="$PATH:/opt/flutter/bin"
+export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
+export PATH="${PATH}:/Users/sjoerd/go/bin/"
+export JAVA_HOME=$(/usr/libexec/java_home -v 11.0)
+export ANDROID_HOME=/Users/sjoerd/Library/Android/sdk
+export ANDROID_NDK_HOME=$ANDROID_HOME/ndk/21.4.7075529
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+export PATH=$ANDROID_HOME/tools:$PATH
+export PATH=$ANDROID_HOME/tools/bin:$PATH
